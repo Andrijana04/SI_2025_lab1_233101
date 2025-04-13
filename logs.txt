@@ -1,0 +1,19 @@
+*   06e7a67 Merged branch 7-count-tasks-per-category into master
+|\  
+| * 8b0ef1d Implement CountTasksPerCategory
+* | 83d0b36 Local changes before merge
+* |   23e24ba Merge pull request #11 from Andrijana04/3-list-tasks-sorted-by-name
+|\ \  
+| * | 5c384e6  Implemetnt SortTasksByname
+| |/  
+* |   55e9cc6 Merge pull request #10 from Andrijana04/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 34d81c1 Implement removeTask method
+|/  
+*   3a8017e Initial commit
+|\  
+| * 445c84d Initial commit
+* 7ad482c Add starter code
+* 19d1911 Initial commit

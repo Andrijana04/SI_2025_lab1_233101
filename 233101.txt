@@ -1,0 +1,46 @@
+Втор дел користени команди:
+
+git fetch origin
+
+git checkout 1-remove-a-task-by-name - префрлување на гранката 1-remove-a-task-by-name за првиот issue
+
+git add SI2025Lab1Main.java - се stage-ира git add SI2025Lab1Main.java 
+
+git commit -m "Implement removeTask method"
+
+git push origin 1-remove-a-task-by-name -за синхронизација на 1-remove-a-task-by-name со оддалечениот репозиториум
+
+(истите команди ги користев и за другите две гранки 3-list-tasks-sorted-by-name,7-count-tasks-per-category)
+
+
+креирање pull request:
+
+GitHub -> SI_2025_lab1_233101 -> Pull request -> Compare & pull request -> Create pull request
+
+git checkout master
+
+git merge 7-count-tasks-per-category
+
+git push origin master - во овој дел се случи конфликт
+
+
+1. Дали се случиле конфликти при извршување на наредбата?
+Да, се случи конфликт при обидот да направам merge на гранката 7-count-tasks-per-category кон master.
+Git при merge-от јави дека ќе бидат презапишани локални измени во фајлот SI2025Lab1Main.java
+
+2.Како сте ги решиле конфликтите?
+Конфликтот го решив со избор на едитирање на конфликтниот фајл рачно.
+Отворив SI2025Lab1Main.java,ги одбрав соодветните делови од кодот кои сакав да останат, ги избришав ознаките <<<<<<<, =======, >>>>>>>, и го зачував фајлот.
+Потоа го завршив merge-от со:
+git add SI2025Lab1Main.java
+git commit -m "Merged branch 7-count-tasks-per-category into master"
+
+3.Кoја стратегија била употребена за да се изврши merge-от?
+За merge-от беше употребена стандардната стратегија recursive
+
+
+
+
+
+
+
